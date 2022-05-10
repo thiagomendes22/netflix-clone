@@ -1,0 +1,374 @@
+:root{
+  --vermelho:#1f10f0;
+  --preta:#141414;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*elemento base*/
+body{
+    background-color: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+
+}
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: arial black;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*Filme-principal*/
+.filme-principal{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("../img/19.jpg");
+   
+    height: 600px;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .Descricao{
+margin-top: 10px;    
+margin-bottom: 40px;
+
+}
+
+.filme-principal .titulo{
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    margin-top: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: 3s ease all;
+    
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+   height: 100%;
+   width: 100%;
+   display: block; 
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+    
+}
+
+.footer{
+    background-color: #141414;
+    margin-left: 0;
+    margin-left: 25px;
+}
+
+.footer-cols{
+    background-color: #141414;
+    margin-left: center;
+}
+
+/** filmes **/
+/*Filme-secudario*/
+.filme-secudario{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("../img/17.jpg");
+   
+    height: 600px;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-secudario .Descricao{
+margin-top: 10px;    
+margin-bottom: 40px;
+
+}
+
+.filme-secudario .titulo{
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    margin-top: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: 3s ease all;
+    
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-secudario .container{
+    width: 70%;
+}
+
+.box-filme{
+   height: 100%;
+   width: 100%;
+   display: block; 
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+    
+}
+
+.footer{
+    background-color: #141414;
+    margin-left: 0;
+    margin-left: 25px;
+}
+
+.direitos{
+    background-color: #000000;
+    align-self: center;
+    margin: flex;
+    flex-direction: center;
+    margin-left: 453px;
+}
+
+/** serie **/
+/*Filme-serie*/
+.filme-serie{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("../img/1.jpg");
+   
+    height: 600px;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-serie .Descricao{
+margin-top: 10px;    
+margin-bottom: 40px;
+
+}
+
+.filme-serie .titulo{
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    margin-top: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: 3s ease all;
+    
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-serie .container{
+    width: 70%;
+}
+
+.box-filme{
+   height: 100%;
+   width: 100%;
+   display: block; 
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+    
+}
+
+.footer{
+    background-color: #141414;
+    margin-left: 0;
+    margin-left: 25px;
+}
+
+.direitos{
+    background-color: #000000;
+    align-self: center;
+    margin: flex;
+    flex-direction: center;
+    margin-left: 453px;
+}
+
+/** favoritos **/
+/*Filme-documentario*/
+.filme-favoritos{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("../img/1f.jpg");
+   
+    height: 600px;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-favoritos .Descricao{
+margin-top: 10px;    
+margin-bottom: 40px;
+
+}
+
+.filme-favoritos .titulo{
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    margin-top: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: 3s ease all;
+    
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-favoritos .container{
+    width: 70%;
+}
+
+.box-filme{
+   height: 100%;
+   width: 100%;
+   display: block; 
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+    
+}
+
+.footer{
+    background-color: #141414;
+    margin-left: 0;
+    margin-left: 25px;
+}
+
+.direitos{
+    background-color: #000000;
+    align-self: center;
+    margin: flex;
+    flex-direction: center;
+    margin-left: 453px;
+}
+
+
+
+
